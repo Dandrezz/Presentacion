@@ -1,5 +1,4 @@
 import React from 'react';
-import headerImage from '../../images/cosmos.jpg';
 import CustomNavar from '../Navbar/CustomNavbar';
 import Card from './Card';
 import './HomePage.css';
@@ -10,7 +9,7 @@ const HomePage = () => {
             position:"relative"
         }}>
             <img 
-                src={headerImage} 
+                src="https://raw.githubusercontent.com/Dandrezz/Presentacion/main/src/images/cosmos.jpg" 
                 alt="Via Lactea" 
                 className="header-image"
             />
