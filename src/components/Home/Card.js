@@ -3,9 +3,9 @@ import './Card.css';
 
 const Card = ({name,degree, image}) => {
     return (
-        <div class="card">
+        <div className="card">
             <img src={image} alt="Avatar" style={{ width: "100%" }} />
-            <div class="container">
+            <div className="container">
                 <h4><b>{name}</b></h4>
                 <p>{degree}</p>
             </div>

@@ -30,7 +30,7 @@ const HomePage = () => {
                             Nosotros construimos tus productos digitales
                         </h3>
                     </div>
-                    <div class="grid-container">
+                    <div className="grid-container">
                         <Card 
                             name="Anonimo"
                             degree="Analista de Sistemas"

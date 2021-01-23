@@ -15,7 +15,6 @@
 .header{
     margin-top: 5rem;
     margin-left: 8rem;
-    z-index: 0;
     position: absolute;
     color: white;
 }
@@ -88,5 +87,11 @@
     .grid-container {
         grid-template-columns: auto;
     }
-    
+    .header{
+        margin-left: 5rem;
+    }
+    .title{
+        font-size: 40px;
+        font:bold;
+    }
 }
